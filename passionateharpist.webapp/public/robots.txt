@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /$
+Allow: /gallery
+Allow: /social-media
+Allow: /contact
+Disallow: /
+
+Sitemap: https://www.passionateharpist.com/sitemap.xml

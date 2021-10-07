@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassionateHarpist.API", "PassionateHarpist.API\PassionateHarpist.API.csproj", "{E3617EAF-1293-47B6-A63A-960C5FA2705D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CC0E4D10-1117-46AE-9559-88F5316F9F7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3617EAF-1293-47B6-A63A-960C5FA2705D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3617EAF-1293-47B6-A63A-960C5FA2705D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3617EAF-1293-47B6-A63A-960C5FA2705D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3617EAF-1293-47B6-A63A-960C5FA2705D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0E4D10-1117-46AE-9559-88F5316F9F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0E4D10-1117-46AE-9559-88F5316F9F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0E4D10-1117-46AE-9559-88F5316F9F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0E4D10-1117-46AE-9559-88F5316F9F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {229A716B-A20F-4847-87A7-0EAF34ECF360}
+	EndGlobalSection
+EndGlobal

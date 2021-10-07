@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.934c530f.chunk.css",
+    "main.js": "/static/js/main.4e40fc2b.chunk.js",
+    "main.js.map": "/static/js/main.4e40fc2b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c7d91fab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c7d91fab.js.map",
+    "static/css/2.0535207c.chunk.css": "/static/css/2.0535207c.chunk.css",
+    "static/js/2.5b7a4a44.chunk.js": "/static/js/2.5b7a4a44.chunk.js",
+    "static/js/2.5b7a4a44.chunk.js.map": "/static/js/2.5b7a4a44.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0535207c.chunk.css.map": "/static/css/2.0535207c.chunk.css.map",
+    "static/css/main.934c530f.chunk.css.map": "/static/css/main.934c530f.chunk.css.map",
+    "static/js/2.5b7a4a44.chunk.js.LICENSE.txt": "/static/js/2.5b7a4a44.chunk.js.LICENSE.txt",
+    "static/media/harpist-background.a2f05911.jpg": "/static/media/harpist-background.a2f05911.jpg",
+    "static/media/harpist-logo.d83388fe.png": "/static/media/harpist-logo.d83388fe.png",
+    "static/media/harpist-profile-2.d78c856a.jpg": "/static/media/harpist-profile-2.d78c856a.jpg",
+    "static/media/harpist-profile.382c823e.jpg": "/static/media/harpist-profile.382c823e.jpg",
+    "static/media/index.css": "/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
+    "static/media/send-a-message-dark.be64c691.png": "/static/media/send-a-message-dark.be64c691.png",
+    "static/media/send-a-message-light.cbb6f59b.png": "/static/media/send-a-message-light.cbb6f59b.png",
+    "static/media/welcome-dark.451fe293.png": "/static/media/welcome-dark.451fe293.png",
+    "static/media/welcome-light.692dbec9.png": "/static/media/welcome-light.692dbec9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7d91fab.js",
+    "static/css/2.0535207c.chunk.css",
+    "static/js/2.5b7a4a44.chunk.js",
+    "static/css/main.934c530f.chunk.css",
+    "static/js/main.4e40fc2b.chunk.js"
+  ]
+}

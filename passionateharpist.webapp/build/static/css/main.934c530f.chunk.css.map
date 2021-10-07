@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACE,mDACF,CAEA,kBACE,SACF","file":"main.934c530f.chunk.css","sourcesContent":["body {\n  font-family: \"Times New Roman\", Times, serif !important;\n}\n\n.grecaptcha-badge {\n  z-index: 1;\n}"]}
