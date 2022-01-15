@@ -32,7 +32,7 @@ namespace PassionateHarpist.API.Services.Business
             }
 
             var socialMedia = new List<SocialMedia>();
-            var user = await _client.GetAsync($"{AppSettings.Configuration.GetUserSocialMediaUrl}?access_token={AppSettings.Configuration.SocialMediaAccessToken}");
+            var user = await _client.GetAsync($"{AppSettings.Configuration.GetSocialMediaUrl}{AppSettings.Configuration.UserSocialMediaId}/media?access_token={AppSettings.Configuration.SocialMediaAccessToken}");
             var userJson = await user.Content.ReadAsStringAsync();
             var userMedia = JsonConvert.DeserializeObject<UserMedia>(userJson);
 
@@ -50,6 +50,18 @@ namespace PassionateHarpist.API.Services.Business
             {
                 Success = true,
                 Data = socialMedia
+            };
+        }
+
+        public async Task<Response<SocialMedia>> RefreshSocialMediaToken()
+        {
+            var response = await _client.GetAsync($"{AppSettings.Configuration.GetSocialMediaUrl}refresh_access_token?grant_type=ig_refresh_token&access_token={AppSettings.Configuration.SocialMediaAccessToken}");
+
+            response.EnsureSuccessStatusCode();
+
+            return new Response<SocialMedia>()
+            {
+                Success = true
             };
         }
     }

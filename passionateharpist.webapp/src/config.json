@@ -1,5 +1,6 @@
 ﻿{
   "SEND_MESSAGE_URL": "https://passionate-harpist-api.herokuapp.com/api/Contact/SendMessage",
   "GET_SOCIAL_MEDIA_FEED": "https://passionate-harpist-api.herokuapp.com/api/Media/GetSocialMediaFeed",
+  "GET_SOCIAL_MEDIA_REFRESH_TOKEN": "https://passionate-harpist-api.herokuapp.com/api/Media/RefreshSocialMediaToken",
   "GOOGLE_RECAPTCHA_SITEKEY": "6LeCY4EbAAAAAPOvjYS18Ab0XaRHMYTk7VXzu26k"
 }

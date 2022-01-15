@@ -40,5 +40,27 @@ namespace PassionateHarpist.API.Controllers
                 };
             }
         }
+
+        [EnableCors("PassionateHarpist.API.CorsPolicy")]
+        [HttpGet("[action]")]
+        public async Task<Response<SocialMedia>> RefreshSocialMediaToken()
+        {
+            try
+            {
+                var result = await this._mediaService.RefreshSocialMediaToken();
+                return result;
+            }
+            catch (Exception exception)
+            {
+                return new Response<SocialMedia>()
+                {
+                    Errors = new Dictionary<string, List<string>>()
+                    {
+                        ["*"] = new List<string> { exception.Message },
+                    },
+                    Success = false
+                };
+            }
+        }
     }
 }

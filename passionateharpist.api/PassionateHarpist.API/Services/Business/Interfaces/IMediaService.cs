@@ -7,5 +7,6 @@ namespace PassionateHarpist.API.Services.Business.Interfaces
     public interface IMediaService
     {
         Task<Response<SocialMedia>> GetSocialMediaFeed();
+        Task<Response<SocialMedia>> RefreshSocialMediaToken();
     }
 }
