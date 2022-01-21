@@ -32,7 +32,7 @@ export function Footer() {
             <p className={classes.text}>
                 <a href="https://www.instagram.com/passionateharpist/" target="_blank" rel="noopener noreferrer" className={classes.textItem}>Instagram</a>
                 <a href="tel:6023301729" className={classes.textItem}>(602) 330-1729</a>
-                <a href="https://www.google.com/maps/place/Scottsdale,+AZ/@33.6744177,-111.9985379,11z" target="_blank" rel="noopener noreferrer" className={classes.textItem}>Scottsdale AZ</a>
+                <a href="https://www.google.com/maps/place/Glendale,+AZ+85304/@33.596279,-112.1942481,14z" target="_blank" rel="noopener noreferrer" className={classes.textItem}>Glendale AZ</a>
                 <a href="mailto:passionateharpist@gmail.com" className={classes.textItem}>passionateharpist@gmail.com</a>
             </p>
         </Container>

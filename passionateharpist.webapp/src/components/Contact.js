@@ -95,9 +95,7 @@ export function Contact() {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <form onSubmit={onSubmit}>
-                        {themeContext.isDark ?
-                            <img src={SendAMessageDark} alt='Send a Message' className={classes.sendAMessageImage} /> :
-                            <img src={SendAMessageLight} alt='Send a Message' className={classes.sendAMessageImage} />}
+                        <img src={SendAMessageLight} alt='Send a Message' className={classes.sendAMessageImage} />
                         <TextField
                             label="Name"
                             fullWidth

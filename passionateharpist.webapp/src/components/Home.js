@@ -40,9 +40,7 @@ export function Home() {
 
     return (
         <div className={classes.root}>
-            {themeContext.isDark ?
-                <img src={WelcomeDark} alt='Welcome' className={classes.welcomeImage} /> :
-                <img src={WelcomeLight} alt='Welcome' className={classes.welcomeImage} />}
+            <img src={WelcomeLight} alt='Welcome' className={classes.welcomeImage} />
             <div className={classes.text}>
                 <p className={classes.paragraph}>Abigail Moore grew up in a large musical family, starting her musical training in piano and often singing harmonies with her sisters. After becoming proficient in piano, Abigail was given the freedom to pick another instrument. She was drawn to the elegance of the harp--its breathtaking appearance and angelic sound. For three years, Abigail was self-taught, but in the years to come she studied under Dr. Heidi Hernandez and Dr. Michelle Gott.</p>
                 <Grid container rowSpacing={2} columnSpacing={{ xs: 2, sm: 2 }} className={classes.grid}>
