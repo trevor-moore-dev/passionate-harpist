@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using PassionateHarpist.API.Models.Documents;
 using PassionateHarpist.API.Models.DTO;
 using PassionateHarpist.API.Services.Business.Interfaces;
@@ -17,6 +18,7 @@ namespace PassionateHarpist.API.Services.Business
 
 		public async Task<Response<Contact>> AddMessage(Contact message)
 		{
+            message.CreatedOnDateTime = DateTime.UtcNow.ToString();
             var result = await this._contactDAO.Add(message);
             return result;
         }

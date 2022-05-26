@@ -21,5 +21,8 @@ namespace PassionateHarpist.API.Models.Documents
         [Required]
         [BsonRequired]
         public string Message { get; set; }
+        [Required]
+        [BsonRequired]
+        public string CreatedOnDateTime { get; set; }
     }
 }
